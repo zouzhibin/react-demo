@@ -1,6 +1,6 @@
 import requset from '@/utils/requset'
 
-export const login = (params)=>{
+export const loginRequest = (params)=>{
     return requset({
         url:"/login",
         params,
